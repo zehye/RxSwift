@@ -17,6 +17,7 @@
 		0488EE4E254904AC00E962A2 /* RxPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488EE4D254904AC00E962A2 /* RxPracticeTests.swift */; };
 		0488EE59254904AC00E962A2 /* RxPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488EE58254904AC00E962A2 /* RxPracticeUITests.swift */; };
 		0488EE7F2549194F00E962A2 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488EE7E2549194F00E962A2 /* Common.swift */; };
+		0488EF6B254A6D5F00E962A2 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488EF6A254A6D5F00E962A2 /* FirstVC.swift */; };
 		1EDCED5A83D140FD3657266B /* Pods_RxPractice_RxPracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31D174230869708A02D3419 /* Pods_RxPractice_RxPracticeUITests.framework */; };
 		26EE681C2339C512BB4C1A15 /* Pods_RxPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9E7EB58F1E8AE201ECB2F0 /* Pods_RxPracticeTests.framework */; };
 		8EEB310E4746E93C2BA06307 /* Pods_RxPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683FB32845A702CBAED786E6 /* Pods_RxPractice.framework */; };
@@ -56,6 +57,7 @@
 		0488EE58254904AC00E962A2 /* RxPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPracticeUITests.swift; sourceTree = "<group>"; };
 		0488EE5A254904AC00E962A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0488EE7E2549194F00E962A2 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		0488EF6A254A6D5F00E962A2 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		0501D254B410D2E057207C8C /* Pods-RxPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPractice.debug.xcconfig"; path = "Target Support Files/Pods-RxPractice/Pods-RxPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		1DB861207C073B1FD56AC93B /* Pods-RxPractice-RxPracticeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPractice-RxPracticeUITests.release.xcconfig"; path = "Target Support Files/Pods-RxPractice-RxPracticeUITests/Pods-RxPractice-RxPracticeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		313361D6EE61E94412843893 /* Pods-RxPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPractice.release.xcconfig"; path = "Target Support Files/Pods-RxPractice/Pods-RxPractice.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +132,8 @@
 		0488EE32254904A900E962A2 /* RxPractice */ = {
 			isa = PBXGroup;
 			children = (
+				0488EE39254904A900E962A2 /* Main.storyboard */,
+				0488EF65254A6CCC00E962A2 /* Practice+Youtube */,
 				0488EE86254919EB00E962A2 /* RxCode */,
 				0488EE33254904A900E962A2 /* AppDelegate.swift */,
 				0488EE35254904A900E962A2 /* SceneDelegate.swift */,
@@ -164,9 +168,16 @@
 			children = (
 				0488EE37254904A900E962A2 /* ViewController.swift */,
 				0488EE7E2549194F00E962A2 /* Common.swift */,
-				0488EE39254904A900E962A2 /* Main.storyboard */,
 			);
 			path = RxCode;
+			sourceTree = "<group>";
+		};
+		0488EF65254A6CCC00E962A2 /* Practice+Youtube */ = {
+			isa = PBXGroup;
+			children = (
+				0488EF6A254A6D5F00E962A2 /* FirstVC.swift */,
+			);
+			path = "Practice+Youtube";
 			sourceTree = "<group>";
 		};
 		C0490A5FC1A3231635F82DE6 /* Pods */ = {
@@ -439,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0488EE3E254904A900E962A2 /* RxPractice.xcdatamodeld in Sources */,
+				0488EF6B254A6D5F00E962A2 /* FirstVC.swift in Sources */,
 				0488EE38254904A900E962A2 /* ViewController.swift in Sources */,
 				0488EE7F2549194F00E962A2 /* Common.swift in Sources */,
 				0488EE34254904A900E962A2 /* AppDelegate.swift in Sources */,
